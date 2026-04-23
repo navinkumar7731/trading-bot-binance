@@ -4,8 +4,8 @@ from orders import Orders
 
 setup_logger()
 
-API_KEY = "53Td3pGSbpjHUPdv6LIpiwGoBgrDkmWEUgdVIdcbKV10mu6j98z4ngkuRM2OQUrY"
-API_SECRET = "dJT0LrVwulfZxqOIuuyytvIleevuhvFSOwu2UCpZlx94yF4i0z8Ql0aatrXZ8LZu"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_API_SECRET"
 
 bot = BinanceClient(API_KEY, API_SECRET)
 orders = Orders(bot)
